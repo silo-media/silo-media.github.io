@@ -1,0 +1,478 @@
+
+.home-content__main {
+    padding-top: 52rem;
+}
+.home-scroll {
+    left: 2.8em;
+    bottom: 4em;
+}
+.tagline {
+    position: absolute;
+    left: 2.85em;
+    bottom: 7em;
+    color: white;
+}
+
+
+p.lead, p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+ul.redBullet2 {list-style: none}
+li.redBullet2::before {
+  content: "•"; color: red; font-size: 4rem;
+  display: inline-block; width: .8em;
+  margin-left: -.8em;
+  line-height: 0rem;
+}
+li.redBullet2 {
+  margin-bottom: 1em;
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+.resume {
+  padding: 2em 0 2em 4em;
+}
+.resume a {
+  font-size: 3rem;
+}
+
+#home.code  {
+  background-image: url('../images/hero-bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  background-color: white;
+  height:100vh;
+  min-height:100vh;
+}
+
+.header-menu-toggle.opaque {
+    background-color: #2C3E4F;
+}
+.shadow-overlay {
+	display: none;
+}
+
+.header-menu-toggle::before {
+  content: "";
+}
+
+.header-logo {
+    left: 68px;
+    top: 70px;
+}
+.home-content__main {
+    max-width: 90% !important;
+    left: 0;
+}
+.home-content__main p {
+    color: white;
+}
+.process__col {
+  position: relative;
+  min-height: auto;
+}
+.process__col::before {
+    height: 12px;
+    width: 12px;
+    left: 18px;
+    top: 10px;
+}
+.process__text {
+    margin-left: 3.5rem;
+    padding-right: 30px;
+}
+.contact-email {
+    display: inline-block;
+    font-family: "metropolis-light", sans-serif;
+    font-size: 3.4rem;
+    line-height: 1.222;
+    color: #ffffff;
+    padding-top: 3.6rem;
+    position: relative;
+}
+.s-contact {
+    color: rgba(255, 255, 255, 1);
+        padding-top: 3rem;
+    padding-bottom: 0rem;
+}
+.s-services {
+	padding-bottom: 2rem;
+}
+.contact-main {
+    margin-top: -1.6rem;
+    margin-bottom: -2.2rem;
+}
+.cl-go-top {
+    bottom: 1.8rem;
+}
+.contact-email::before {
+    margin-top: 15px;
+}
+img {
+	border-bottom: none;
+}
+img.duoImage {
+	padding: 0;
+	margin: 0;
+}
+.s-about {
+  padding-bottom: 0rem;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.header-nav {
+  background: rgba(0, 0, 0, 0.7);
+}
+.header-nav__content  {
+  background: none;
+}
+.display-1 {
+  margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.head-tweak {
+	margin-bottom: -3rem;
+	margin-top: -40px !important;
+	font-size: 3.5rem;
+}
+img.no-mobile {
+	display: none;
+}
+img.only-mobile {
+	display: block;
+}
+h1.forno {
+    color: #ffffff;
+    margin-top: -15px;
+}
+/* ===================================================================
+ * # how
+ * ------------------------------------------------------------------- */
+.s-how {
+  padding: 3rem 6rem 18rem 4rem;
+	background-color: #ffffff;
+  position: relative;
+}
+
+/* ===================================================================
+ MOBILE STYLES
+ * ------------------------------------------------------------------- */
+ @media only screen and (max-width: 1920px) {
+#home.code  {
+  background-image: url('../images/hero-bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 115%;
+  background-color: white;
+
+}
+}
+
+ @media only screen and (max-width: 1600px) {
+#home.code  {
+  background-image: url('../images/hero-bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 110%;
+  background-color: white;
+  height:100vh;
+  min-height:100vh;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+#home.code  {
+  background-position: 0 0;
+  background-size: 120%;
+}
+}
+
+
+
+
+@media only screen and (max-width: 460px) {
+p.lead, p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+ .contact-email {
+    font-size: 2.4rem;
+  }
+.s-services, .s-about {
+    padding-top: 2.6rem;
+}
+.process__col::before {
+    height: 6px;
+    width: 6px;
+    left: 30px;
+    top: 30px;
+}
+.s-services {
+    padding-bottom: 2rem;
+
+
+}
+.s-contact {
+    padding-top: .1rem;
+    padding-bottom: 3rem;
+}
+body {
+	    font-size: 2.4rem !important;
+}
+.header-menu-toggle {
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.header-menu-icon {
+    display: block;
+    width: 26px;
+    height: 2px;
+    margin-top: -1px;
+    bottom: auto;
+    background-color: white;
+    position: absolute;
+    right: 11px !important;
+    top: 50%;
+}
+.header-nav__close {
+    right: 15px;
+}
+img {
+	margin-left: -30%;
+}
+img.only-mobile, img.no-mobile {
+	margin-left: 0 !important;
+
+}
+.process__col::before {
+    display: none; 
+    height: 6px;
+    width: 6px;
+    line-height: 26px;
+    font-size: 1rem;
+    top: -3px;
+    left: 0;
+}
+.s-how {
+  padding: 3rem 2rem 5rem 0rem;
+}
+.contact-email {
+    font-size: 1.8rem;
+}
+.process__text {
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+.process__vline-left {
+    left: calc(0px + 0px);
+}
+.s-contact {
+    padding-top: 0rem;
+    padding-bottom: 9rem;
+}
+.cl-go-top {
+    bottom: 1.8rem;
+}
+.contact-main {
+    margin-top: -1.6rem;
+    margin-bottom: -2.2rem;
+}
+.contact-email::before {
+    margin-top: 27px;
+}
+h1.forno {
+    color: #ffffff;
+    margin-top: 75px;
+    font-size: 1.4em;
+}
+.home-content__main {
+    max-width: 90% !important;
+    margin: -150px 0 0 -10px;
+    padding-top: 57rem;
+}
+
+.white {
+  background-color: #ffffff;
+}
+.light-gray {
+  background-color: #f1f1f1;
+}
+.header-logo {
+    left: 28px;
+    top: 70px;
+    width: 150px;
+}
+#home.code  {
+  background-position: -100px 0;
+  background-size: 160%;
+}
+
+}
+@media only screen and (max-width: 440px) {
+#home.code  {
+  background-position: -550px 0;
+  background-size: 350%;
+}
+.home-content__main {
+    max-width: 90% !important;
+    margin: -70px 0 0 -1px;
+    padding-top: 57rem;
+}
+/* .home-scroll {
+  margin-top: -200px;
+} */
+
+.home-content__main p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+.resume {
+  padding: 1em 0 1em 1.5em;
+}
+.resume a {
+  font-size: 3rem;
+}
+.col-block.process__col.aos-init.aos-animate {
+    padding: 0;
+}
+#about {
+    padding-left: 0 !important;
+    margin-left: -8px !important;
+}
+.header-menu-toggle {
+    top: 12px;
+    right: -20px;
+    width: 100%;
+}
+h1.forno {
+    color: #ffffff;
+    margin-top: 95px;
+    font-size: 1.4em;
+}
+  }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+@media only screen and (max-width: 768px) {
+#home.code  {
+  background-position: -1050px 0;
+  background-size: 300%;
+}
+
+.home-scroll {
+    left: 1.1em;
+    bottom: 5em;
+}
+.tagline {
+    position: absolute;
+    left: 1.2em;
+    bottom: 8em;
+    color: white;
+    line-height: 1.3em;
+}
+}
+
+
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media only screen and (min-width: 320px) (max-height: 480px) {
+.home-content__main {
+    padding-top: 38rem;
+    padding-left: 1.5em;
+}
+#home.code  {
+  background-position: -550px 0;
+  background-size: 350%;
+}
+
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media only screen and (max-width: 414px) {
+#home.code  {
+  background-position: -750px 0;
+  background-size: 350%;
+}
+.home-scroll {
+    left: 1.1em;
+    bottom: 5em;
+}
+.tagline {
+    position: absolute;
+    left: 1.2em;
+    bottom: 8em;
+    color: white;
+    line-height: 1.3em;
+    width: 80%;
+}
+
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media only screen and (max-width: 375px) {
+#home.code  {
+  background-position: -670px 0;
+  background-size: 350%;
+}
+.tagline {
+    position: absolute;
+    left: 1.2em;
+    bottom: 8em;
+    color: white;
+    line-height: 1.3em;
+}
+
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+@media only screen and (max-width: 360px) {
+#home.code  {
+  background-position: -600px 0;
+  background-size: 350%;
+}
+
+.home-scroll {
+    left: 1.1em;
+    bottom: 5em;
+}
+.tagline {
+    position: absolute;
+    left: 1.2em;
+    bottom: 8em;
+    color: white;
+    line-height: 1.3em;
+}
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+@media only screen and (max-width: 320px) {
+#home.code  {
+  background-position: -550px 0;
+  background-size: 350%;
+}
+
+.home-scroll {
+    left: 1.1em;
+    bottom: 5em;
+}
+.tagline {
+    position: absolute;
+    left: 1.2em;
+    bottom: 8em;
+    color: white;
+    line-height: 1.3em;
+}
+}
